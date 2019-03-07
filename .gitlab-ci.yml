@@ -1,0 +1,29 @@
+stages:
+  - build
+  - test
+  - publish
+
+build:
+  stage: build
+  script:
+  - echo "Building some artifacts"
+  - echo "Building some artifacts"
+  - echo "Building some artifacts"
+  - echo "Building some artifacts"
+  - echo "Building some artifacts"
+  - echo "Building some artifacts"
+  - echo "Building some artifacts"
+  - echo "Building some artifacts"
+  - echo "Building some artifacts"
+
+test:
+  stage: test
+  script:
+  - chmod +x runme.sh
+  - ./runme.sh
+
+publish:
+  stage: publish
+  script:
+  - echo "Publishing artifacts"
+
